@@ -1,0 +1,75 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --description-color: #757575;
+    --logo-color: #FFFFFF;
+    --button-color: #2196F3;
+    --button-text-hover-color: #FFFFFF;
+    --button-hover-color: #188CE8;
+    --bg-color: #2F303A;
+    --team-bg:#F5F4FA;
+    --bg-btn-portfolio: #F5F4FA;
+    --hero-bg: #C4C4C4;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+ 
+.list {
+    list-style: none;
+}
+  
+.link {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-family: var(--main-font);
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 94px;
+}
+
+.list-item {
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    color: var(--accent-color);
+}
